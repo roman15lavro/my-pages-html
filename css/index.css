@@ -1,0 +1,43 @@
+:root{
+    font-family: 'Times New Roman', Times, serif;
+    --main-color:black;
+    }
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: rgba(11, 71, 9, 0.63);
+}
+header img{
+    
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+header nav .menu{
+    display:flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+
+}
+header nav .menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:var(--main-color);
+    border: 1px solid transparent;
+}
+header nav .menu a:hover {
+    border: 1px solid var(--main-color);
+}
+   @media (min-width: 600px) {
+    header nav {
+        display: flex;
+        align-items: center;
+}
+header .menu {
+        flex: 1;
+}
+    section img{
+        position: center;
+        size: cover;
+}
