@@ -5,7 +5,7 @@
 body {
     max-width: 980px;
     margin: auto;
-    background-color: rgba(11, 71, 9, 0.63);
+    background-color: rgba(236, 240, 236, 0.63);
 }
 header img{
     
@@ -30,14 +30,49 @@ header nav .menu a:hover {
     border: 1px solid var(--main-color);
 }
    @media (min-width: 600px) {
-    header nav {
+header nav {
         display: flex;
         align-items: center;
 }
 header .menu {
         flex: 1;
 }
-    section img{
-        position: center;
-        size: cover;
+  h1{
+      text-align:center;
+}
+  .text {
+      text-indent:20px;
+}
+  h2{
+      text-align:center;
+}
+  section img{
+      width: 150px;
+      height: 150px;
+      border-radius: 8px;
+}
+h3{
+    text-align:center;
+    font-size: 25px;
+}
+textarea{
+  border: 1px solid #050505;
+  border-radius: 5px;
+ 
+  overflow: hidden;
+  width: 240px;
+
+} .field{
+  border: 0;
+  margin: 0;
+}
+input {
+  border-radius: 5px;
+  margin: 0;
+}
+label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
 }
