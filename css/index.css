@@ -46,7 +46,11 @@ header .menu {
   h2{
       text-align:center;
 }
-  section img{
+.doc {
+    display: flex;
+}
+
+section img{
       width: 150px;
       height: 150px;
       border-radius: 8px;
