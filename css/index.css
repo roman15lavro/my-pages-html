@@ -51,6 +51,7 @@ header .menu {
 }
 
 section img{
+      display: flex;
       width: 150px;
       height: 150px;
       border-radius: 8px;
@@ -58,7 +59,7 @@ section img{
 h3{
     text-align:center;
     font-size: 25px;
-}
+    }
 textarea{
   border: 1px solid #050505;
   border-radius: 5px;
