@@ -1,7 +1,11 @@
+*{
+    scroll-behavior: smooth;
+}
 :root{
     font-family: 'Times New Roman', Times, serif;
     --main-color:black;
     }
+
 body {
     max-width: 980px;
     margin: auto;
@@ -42,12 +46,15 @@ header .menu {
 }
   .text {
       text-indent:20px;
+      
 }
   h2{
       text-align:center;
 }
 .doc {
     display: flex;
+    align-items: center;
+}
 }
 
 section img{
@@ -80,4 +87,35 @@ label {
   font-size: 12px;
   float: left;
   margin: 10px 0 0 20px;
+}
+.width{
+    width: 20%;
+}
+.form{
+    text-align: center;
+}
+.form-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.form-name input,
+.form-email input,
+.form-number input{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.form-inner_textarea textarea{
+    height: 170px;
+    width: 500px;
+
+}
+.btn{
+    margin-top: 10px;
+    border: none;
+    background-color: #e07f27;
+    height: 30px;
+    width: 100px;
+}
 }
